@@ -11,9 +11,11 @@
   margin: 0 auto;
   max-width: 900px;
   padding: 5em;
-  background-color: rgb(235, 96, 96);
+ 
 }
 html {
   font-family: sans-serif;
 }
-
+body {
+   background-color: rgb(235, 96, 96);
+}
