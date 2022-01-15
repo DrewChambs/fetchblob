@@ -16,6 +16,7 @@
      <div class="container">
         <h1>Test the blob</h1>
         <h2>Testing page again</h2>
+        <div class="img-holder"></div>
      </div>
      <script>
      console.log("Working file")
@@ -32,6 +33,8 @@
         let objectURL = URL.createObjectURL(myBlob);
         let image = document.createElement('img');
            image.src = objectURL;
+         //  Adding image to div
+           document.querySelector(".img-holder").innerHTML = `${image}`;
            document.body.appendChild(image);
           });
      </script>
