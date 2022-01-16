@@ -34,8 +34,8 @@
         let image = document.createElement('img');
            image.src = objectURL;
          //  Adding image to div
-           document.querySelector(".img-holder").innerHTML = `${objectURL}`;
-           document.body.appendChild(image);
+         // document.body.appendChild(image);
+            document.querySelector(".img-holder").appendChild(image);        
           });
      </script>
   </body>
